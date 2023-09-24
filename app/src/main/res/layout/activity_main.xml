@@ -6,10 +6,8 @@
     android:layout_height="match_parent"
     android:background="#fff"
     android:padding="20dp"
-    tools:context=".MainActivity">
-
-    <!--android:layout_alignParentBottom="true"
-           android:layout_alignParentRight="true"-->
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
 
 
 
@@ -20,9 +18,11 @@
         android:layout_height="wrap_content"
         android:background="#800080"
         android:text="Calculator"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/my_custom_font"
+
         android:textColor="#FFFFFF"
         android:textSize="26dp" />
-
 
     <EditText
         android:layout_width="match_parent"
@@ -30,40 +30,42 @@
         android:hint="Enter Number 1"
 
         android:layout_below="@+id/t1"
-        android:id="@+id/edit_name"
-        />
-
+        android:id="@+id/edit_name" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Number 2"
-
         android:layout_below="@+id/edit_name"
-        android:id="@+id/edit_email"
-        />
+        android:id="@+id/edit_email" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Submit"
-
         android:layout_below="@+id/edit_email"
-        android:id="@+id/btn"
+        android:layout_centerHorizontal="true"
+
+        android:id="@+id/btn" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:textSize="26sp"
+        android:textColor="#800080"
+        android:layout_marginBottom="16dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rounded_background"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:fontFamily="@font/my_custom_font"
         />
 
 
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#800080"
-        android:text="Total"
-        android:textColor="#FFFFFF"
-        android:layout_marginBottom="5dp"
-        android:layout_centerInParent="true"
-        android:id="@+id/result"
-        android:textSize="26dp" />
 
 
 </RelativeLayout>
