@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <!--android:layout_alignParentBottom="true"
+           android:layout_alignParentRight="true"-->
+
+
+
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#800080"
+        android:text="Calculator"
+        android:textColor="#FFFFFF"
+        android:textSize="26dp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number 1"
+
+        android:layout_below="@+id/t1"
+        android:id="@+id/edit_name"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number 2"
+
+        android:layout_below="@+id/edit_name"
+        android:id="@+id/edit_email"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+
+        android:layout_below="@+id/edit_email"
+        android:id="@+id/btn"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#800080"
+        android:text="Total"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="5dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/result"
+        android:textSize="26dp" />
+
+
+</RelativeLayout>
