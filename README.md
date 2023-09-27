@@ -6,3 +6,6 @@ when i enter the no. and click on submit
 
 when i enter the no. and click on submit
 ![Screenshot 2023-09-24 231828](https://github.com/Narayan-Thakare/ANDROID-CALCULATOR/assets/113063658/93e61f3b-6e39-431f-abb8-ee9d8550a221)
+
+when i enter the no. and click on submit
+![Screenshot 2023-09-24 231828](https://github.com/Narayan-Thakare/ANDROID-CALCULATOR/assets/113063658/93e61f3b-6e39-431f-abb8-ee9d8550a221)
